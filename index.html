@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link data-require="bootstrap@3.3.7" data-semver="3.3.7" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script data-require="bootstrap@3.3.7" data-semver="3.3.7" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script data-require="angular.js@1.6.2" data-semver="1.6.2" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content-wrap">
+      <h3 id="title" align="center">Teste Inventione</h3>
+      <h2 id="title" align="center">Pedro Ailan Silva de Oliveira</h2>
+    </div>
+<form id="formulario" class="formulario" method="get">
+      <div class="caixa-entrada-dados-esquerda">
+        <span>Nome</span>
+        <input class="input-dados" required="required" id="name" name="nome" placeholder=" <corpo textual>" type="text">
+        <br>
+        <br>
+
+        <span>Idade</span>
+        <input class="input-dados" type="text" required="required" id="idade" name="idade" placeholder=" <corpo numérico> ">
+        <br>
+        <br>
+      </div>
+      <div class="caixa-entrada-dados-direita">
+        <span>Data</span>
+        <input class="input-dados" required="required" id="data" name="data" placeholder=" <campo de data: dd/mm/aaaa>" type="date">
+        <br>
+        <br>
+      </div>
+      <div class="caixa-opcao-sexo">
+        <span>Sexo</span>
+        <div class="opcao-sexo">
+          <input name="sexo" id="sexo" type="radio" value="M" required="required"> Masculino
+          <br>
+          <input name="sexo" id="sexo" type="radio" value="F" required="required"> Feminino
+          <br>
+        </div>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" value="checkbox" id="checkbox-segundo-painel"> Habilitar segundo painel
+        <br>
+      </div>
+      <div id="div-caixa-texto">
+        <input id="caixa-texto" class="caixa-texto" type="text" name="texto" maxlength="10000" size="10000" placeholder=" <Este campo receberá um texto de até 10.000 chars>">
+        <button id="btn-apresentar" class="btn-apresentar" onclick="exibir()">Apresentar</button>
+      </div>
+      
+      <div id="exibir-texto" align="center" onselectstart="return false" >
+      </div>
+      
+      </form>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

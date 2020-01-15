@@ -1,0 +1,88 @@
+/* Suas estilizações */
+
+.container {
+  width: auto;
+}
+
+.content-wrap {
+  width: auto;
+  margin: auto;
+  padding-top: 1px;
+  color: #FFFFFF;
+  background-color: #0000FF;
+}
+
+.formulario {
+  width: 45em;
+  margin: 50px auto auto auto;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.caixa-entrada-dados-esquerda {
+  display: block;
+  float: left;
+}
+
+.caixa-entrada-dados-direita {
+  display: block;
+  float: right;
+}
+
+.input-dados {
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+}
+
+.caixa-opcao-sexo {
+  clear: both;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.opcao-sexo {
+  display: block;
+  border: 1px solid #000;
+  width: 150px;
+  border-radius: 4px;
+  padding: 2px 1px 2px 5px;
+}
+
+.checkbox {
+  margin-left: 56px;
+}
+
+#div-caixa-texto {
+  display: none;
+}
+
+#exibir-texto {
+  display: none;
+  margin-left: 37px;
+  margin-top: 75px;
+  width: 95%;
+  height: 23vh;
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+  background-color: #0000FF;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.caixa-texto {
+  display: block;
+  margin-left: 37px;
+  width: 95%;
+  height: 20vh;
+  border-radius: 4px;
+  border: 1px solid #DCDCDC;
+}
+
+.btn-apresentar {
+  display: block;
+  float: right;
+  margin-top: 30px;
+  border: 1px solid #DCDCDC;
+  background: #fff;
+}
